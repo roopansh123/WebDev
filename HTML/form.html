@@ -6,7 +6,7 @@
     <title>Forms</title>
 </head>
 <body>
-    <form action="https://www.google.co.in/search">
+    <form  action="https://www.google.co.in/search">
         <label>Search in Google</label>
         <input placeholder="search in google" name="q" type="text">
         <button>Search</button>
@@ -26,13 +26,45 @@
     <br>
     <br>
     <br>
-    <h2>Radio Buttons</h2>
+    
     <form>
-        <label for="Gender">Male</label>
+        <h2>Radio Buttons</h2>
+        
         <input type="radio" id="Male" value="Male" name="Gender">
-        <label for="Gender">Female</label>
+        <label for="Male">Male</label>
+        
         <input type="radio" id="Female" value="Female" name="Gender" >
+        <label for="Female">Female</label>
+        
+        <input type="radio" id="Others" value="Others" name="Gender">
+        <label for="Others">Others</label>
     </form>
+
+    <br><br><br>
+    <form>
+        <h2>Selection Box</h2>
+        <select name="Animals">
+            <option  value=" ">
+                ----Please select the animal----
+            </option>
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Cow">Cow</option>
+            <option value="Rabbit">Rabbit</option>
+        </select>
+    </form>
+
+    <br><br>
+    <h2>Range</h2>
+    <form>
+        <label for="vol">Value</label>
+        <input type="range" min="0" max="100" name="vol" step="10">
+    </form>
+    <br><br><br>
+    <h2> Text area</h2>
+    <textarea >
+
+    </textarea>
     
 
 
