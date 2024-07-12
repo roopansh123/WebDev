@@ -1,0 +1,16 @@
+div{
+    height:200px;
+    width:200px;
+    background-color: rgba(222, 184, 135, 0.566);
+    border: 2px solid black;
+    margin: 2%;
+    display: inline-block;
+    border-radius: 30%;
+    transition: 1s;
+}
+
+div:hover{
+    border-radius: 100%;
+    background-color: rgba(95, 158, 160, 0.815);
+    ba
+}
